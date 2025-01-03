@@ -19,7 +19,7 @@
         ],
         "./src/**/*.js": [
             "eslint",
-            "jest --bail --findRelatedTests"
+            "jest --bail --findRelatedTests --passWithNoTests"
         ]
     },
     "repository": {
